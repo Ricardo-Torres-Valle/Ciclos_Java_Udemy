@@ -14,7 +14,12 @@ public class Ciclos_Java_Udemy {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        System.out.println("Repositorio de prueba");
+        var contador = 0;
+        while(contador < 3){
+            System.out.println("contador = " + contador);
+            contador++;
+        }
+        
     }
     
 }
